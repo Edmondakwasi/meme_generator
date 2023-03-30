@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    background: linear-gradient(#65799b, #603e74);
+}
+
+#meme-card{
+    max-width: 60rem;
+    height: 35rem;
+    margin: 4rem auto;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 8px rgb(0, 0, 0, 0.6);
+    background: linear-gradient(#0FF0B3, #036ED9);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Nosifer', sans-serif;
+    color: #001916;
+    font-size: 3rem;
+    padding: 2rem;
+    padding-bottom: 0;
+    font-weight: bold;
+}
+
+span{
+    width: 10rem;
+    display: block;
+    margin: 0 25rem auto;
+    margin-bottom: 2rem;
+}
+
+h2{
+    margin-right: -25rem;
+    font-style: italic;
+    font-size: 1rem;
+    color: #1e1d1d;
+}
+
+#image{
+   max-width: 35rem;
+   height: 12rem;
+   border-radius: 0.5rem;
+   box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.6);
+   border: 1px solid rgb(52, 142, 175);
+}
+
+#align-content img{
+    width: 2.5rem;
+    margin: 0 0.5rem;   
+}
+
+#align-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 15rem;
+    height: 5rem;
+    border-radius: 3rem;
+    padding: 0.2rem;
+    margin: 3rem 0.5rem;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid rgb(	3, 110, 217);
+    background: linear-gradient(#0FF0B3, #036ED9);
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+button:hover{
+    background: linear-gradient(#0ec493, #035cb6);
+    color: black;
+}
+
+#link-btn{
+    background: transparent;
+    border: 1px solid rgb(3, 110, 217);
+}
+
+#link-btn:hover{
+    background: linear-gradient(#0ec493, #035cb6);
+    color: black;
+}
+
+@media (max-width: 600px){
+    body{
+        height: 100%;
+    }
+    h1{
+        font-size: 20px;
+    }
+
+    #memes img{
+        width: 16rem;
+        height: 6rem;
+        margin: 0.5rem 0 0 0;
+    }
+
+    h2{
+        margin-right: -10rem;
+        font-size: 12px;
+    }
+
+    button{
+        width: 8rem;
+        height: 3rem;
+        font-size: 1rem;  
+    }
+
+    #align-content img{
+        width: 1.5rem; 
+    }
+
+    #meme-card{
+        width: 20rem;
+        height: 25rem;
+    } 
+
+    main{
+        overflow: hidden;
+    }
+}
